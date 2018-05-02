@@ -1,20 +1,20 @@
-document.getElementById("image").addEventListener("mouseover",mouseov);
-document.getElementById("image").addEventListener("mouseout",mouseou);
-document.getElementById("image").addEventListener("click",clk);
-document.getElementById("image").addEventListener("contextmenu",contex);
+document.getElementById("image").addEventListener("mouseover",Over);
+document.getElementById("image").addEventListener("mouseout",Out);
+document.getElementById("image").addEventListener("click",Click);
+document.getElementById("image").addEventListener("contextmenu",Context);
 
-function mouseov() {
+function Over() {
 window.alert("Over");
 }
 
-function mouseou() {
+function Out() {
 window.alert("Out");
 }
 
-function clk() {
+function Click() {
 window.alert("Click");
 }
 
-function contex() {
+function Context() {
 window.alert("Context");
 }
